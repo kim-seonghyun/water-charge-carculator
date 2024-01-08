@@ -64,7 +64,5 @@ Q.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
 Å
 Q.idea/sonarlint/securityhotspotstore/3/9/39c20ddbbd2290fd8512885fdf1433fbc8795185,0/c/0c69c932ebc3cfabc132ed626c1c65954718c61b
-`
-0USER_HOME_IS_UNDEFINED/waterChargeCalculator.log,c/6/c637347b37bf62fabe33728f0cac8b88a6625ae6
 
 Osrc/main/java/com/nhnacademy/edu/springframework/project/parser/DataParser.java,3/b/3bc4296d7c4d15d3ac4664158b3b5379d0e40ea0

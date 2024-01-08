@@ -3,10 +3,8 @@ package com.nhnacademy.edu.springframework.project.aspect;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
 import org.aspectj.lang.Signature;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.extension.ExtendWith;
 
 
 import static org.mockito.Matchers.anyString;

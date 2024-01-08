@@ -5,11 +5,9 @@ import static org.junit.jupiter.api.Assertions.*;
 import com.nhnacademy.edu.springframework.project.domain.WaterBill;
 import java.util.ArrayList;
 import java.util.List;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
-import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
 class DefaultWaterBillReportTest {

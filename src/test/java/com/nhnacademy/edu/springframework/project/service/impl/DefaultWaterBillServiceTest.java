@@ -1,6 +1,5 @@
 package com.nhnacademy.edu.springframework.project.service.impl;
 
-import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Matchers.anyLong;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;

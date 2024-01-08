@@ -1,8 +1,8 @@
 package com.nhnacademy.edu.springframework.project.repository;
 
 import com.nhnacademy.edu.springframework.project.domain.WaterBillInfo;
-
 import com.nhnacademy.edu.springframework.project.parser.DataParser;
+
 import java.util.List;
 
 public interface WaterBillChartRepository {

@@ -298,3 +298,156 @@ DefaultWaterBillReport.generateReport 15ms
 DefaultWaterBillChartRepository.setDataParser 0ms
 JsonDataParser.parse 112ms
 DefaultWaterBillChartRepository.load 112ms
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [/Users/gimseonghyeon/Desktop/springAssignment/assignment2/water-charge-carculator/target/classes/com/nhnacademy/edu/springframework/project/parser/impl/CsvDataParser.class]; nested exception is java.lang.NullPointerException
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [/Users/gimseonghyeon/Desktop/springAssignment/assignment2/water-charge-carculator/target/classes/com/nhnacademy/edu/springframework/project/parser/impl/CsvDataParser.class]; nested exception is java.lang.NullPointerException
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [/Users/gimseonghyeon/Desktop/springAssignment/assignment2/water-charge-carculator/target/classes/com/nhnacademy/edu/springframework/project/parser/impl/CsvDataParser.class]; nested exception is java.lang.NullPointerException
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [/Users/gimseonghyeon/Desktop/springAssignment/assignment2/water-charge-carculator/target/classes/com/nhnacademy/edu/springframework/project/parser/impl/CsvDataParser.class]; nested exception is java.lang.NullPointerException
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [/Users/gimseonghyeon/Desktop/springAssignment/assignment2/water-charge-carculator/target/classes/com/nhnacademy/edu/springframework/project/parser/impl/CsvDataParser.class]; nested exception is java.lang.NullPointerException
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [/Users/gimseonghyeon/Desktop/springAssignment/assignment2/water-charge-carculator/target/classes/com/nhnacademy/edu/springframework/project/parser/impl/CsvDataParser.class]; nested exception is java.lang.NullPointerException
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [/Users/gimseonghyeon/Desktop/springAssignment/assignment2/water-charge-carculator/target/classes/com/nhnacademy/edu/springframework/project/parser/impl/CsvDataParser.class]; nested exception is java.lang.NullPointerException
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [/Users/gimseonghyeon/Desktop/springAssignment/assignment2/water-charge-carculator/target/classes/com/nhnacademy/edu/springframework/project/parser/impl/CsvDataParser.class]; nested exception is java.lang.NullPointerException
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [/Users/gimseonghyeon/Desktop/springAssignment/assignment2/water-charge-carculator/target/classes/com/nhnacademy/edu/springframework/project/parser/impl/JsonDataParser.class]; nested exception is java.lang.NullPointerException
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'checkLoadedAspect' defined in file [/Users/gimseonghyeon/Desktop/springAssignment/assignment2/water-charge-carculator/target/classes/com/nhnacademy/edu/springframework/project/aspect/CheckLoadedAspect.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'defaultWaterBillChartRepository': Unsatisfied dependency expressed through field 'dataParser'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.nhnacademy.edu.springframework.project.parser.DataParser' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Qualifier(value="csvDataParser"), @org.springframework.beans.factory.annotation.Autowired(required=true)}
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'checkLoadedAspect' defined in file [/Users/gimseonghyeon/Desktop/springAssignment/assignment2/water-charge-carculator/target/classes/com/nhnacademy/edu/springframework/project/aspect/CheckLoadedAspect.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'defaultWaterBillChartRepository': Unsatisfied dependency expressed through field 'dataParser'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.nhnacademy.edu.springframework.project.parser.DataParser' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Qualifier(value="csvDataParser"), @org.springframework.beans.factory.annotation.Autowired(required=true)}
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'checkLoadedAspect' defined in file [/Users/gimseonghyeon/Desktop/springAssignment/assignment2/water-charge-carculator/target/classes/com/nhnacademy/edu/springframework/project/aspect/CheckLoadedAspect.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'defaultWaterBillChartRepository': Unsatisfied dependency expressed through field 'dataParser'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.nhnacademy.edu.springframework.project.parser.DataParser' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Qualifier(value="csvDataParser"), @org.springframework.beans.factory.annotation.Autowired(required=true)}
+DefaultWaterBillChartRepository.load 0ms
+DefaultWaterBillChartRepository.load 0ms
+DefaultWaterBillChartRepository.load 0ms
+DefaultWaterBillChartRepository.load 0ms
+DefaultWaterBillChartRepository.load 0ms
+DefaultWaterBillChartRepository.load 0ms
+DefaultWaterBillChartRepository.load 0ms
+DefaultWaterBillChartRepository.load 0ms
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'checkLoadedAspect' defined in file [/Users/gimseonghyeon/Desktop/springAssignment/assignment2/water-charge-carculator/target/classes/com/nhnacademy/edu/springframework/project/aspect/CheckLoadedAspect.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'defaultWaterBillChartRepository': Unsatisfied dependency expressed through field 'dataParser'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.nhnacademy.edu.springframework.project.parser.DataParser' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Qualifier(value="csvDataParser"), @org.springframework.beans.factory.annotation.Autowired(required=true)}
+DefaultWaterBillChartRepository.load 1ms
+DefaultWaterBillChartRepository.load 0ms
+DefaultWaterBillChartRepository.load 0ms
+DefaultWaterBillChartRepository.load 0ms
+CsvDataParser.parse 6ms
+DefaultWaterBillChartRepository.load 18ms
+DefaultWaterBillChartRepository.isLoaded 0ms
+DefaultWaterBillChartRepository.getWaterBillByUsage 2ms
+DefaultWaterBillService.calculateWaterBill 3ms
+DefaultWaterBillChartRepository.isLoaded 0ms
+DefaultWaterBillReport.generateReport 25ms
+JavaConfig$$EnhancerBySpringCGLIB$$90ea8af2.getFilePath 4ms
+DefaultWaterBillChartRepository.load 0ms
+JavaConfig$$EnhancerBySpringCGLIB$$90ea8af2.getFilePath 4ms
+DefaultWaterBillChartRepository.load 0ms
+JavaConfig$$EnhancerBySpringCGLIB$$90ea8af2.getFilePath 6ms
+DefaultWaterBillChartRepository.load 0ms
+JavaConfig$$EnhancerBySpringCGLIB$$90ea8af2.getFilePath 4ms
+DefaultWaterBillChartRepository.load 0ms
+JavaConfig$$EnhancerBySpringCGLIB$$90ea8af2.getFilePath 6ms
+DefaultWaterBillChartRepository.load 0ms
+JavaConfig$$EnhancerBySpringCGLIB$$90ea8af2.getFilePath 6ms
+DefaultWaterBillChartRepository.load 0ms
+Cannot enhance @Configuration bean definition 'javaConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+DefaultWaterBillChartRepository.load 0ms
+Cannot enhance @Configuration bean definition 'javaConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Cannot enhance @Configuration bean definition 'javaConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+CsvDataParser.parse 0ms
+DefaultWaterBillChartRepository.load 9ms
+JavaConfig$$EnhancerBySpringCGLIB$$e8e11316.getFilePath 4ms
+DefaultWaterBillChartRepository.setDataParser 0ms
+CsvDataParser.parse 7ms
+DefaultWaterBillChartRepository.load 7ms
+DefaultWaterBillChartRepository.isLoaded 0ms
+DefaultWaterBillChartRepository.getWaterBillByUsage 2ms
+DefaultWaterBillService.calculateWaterBill 4ms
+DefaultWaterBillChartRepository.isLoaded 0ms
+DefaultWaterBillReport.generateReport 15ms
+JavaConfig$$EnhancerBySpringCGLIB$$e8e11316.getFilePath 6ms
+DefaultWaterBillChartRepository.setDataParser 0ms
+CsvDataParser.parse 5ms
+DefaultWaterBillChartRepository.load 5ms
+DefaultWaterBillChartRepository.isLoaded 0ms
+DefaultWaterBillChartRepository.getWaterBillByUsage 2ms
+DefaultWaterBillService.calculateWaterBill 4ms
+DefaultWaterBillChartRepository.isLoaded 0ms
+DefaultWaterBillReport.generateReport 12ms
+JavaConfig$$EnhancerBySpringCGLIB$$e8e11316.getFilePath 5ms
+DefaultWaterBillChartRepository.setDataParser 0ms
+JsonDataParser.parse 102ms
+DefaultWaterBillChartRepository.load 102ms
+DefaultWaterBillChartRepository.isLoaded 0ms
+DefaultWaterBillChartRepository.getWaterBillByUsage 3ms
+DefaultWaterBillService.calculateWaterBill 6ms
+DefaultWaterBillChartRepository.isLoaded 0ms
+DefaultWaterBillReport.generateReport 17ms
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataParserSetter' defined in file [/Users/gimseonghyeon/Desktop/springAssignment/assignment2/water-charge-carculator/target/classes/com/nhnacademy/edu/springframework/project/aspect/DataParserSetter.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.nhnacademy.edu.springframework.project.parser.DataParser' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Qualifier(value="csvDataParser")}
+JavaConfig$$EnhancerBySpringCGLIB$$90ea8af2.getFilePath 6ms
+JavaConfig$$EnhancerBySpringCGLIB$$1f87df2.getFilePath 4ms
+DefaultWaterBillChartRepository.load 0ms
+JavaConfig$$EnhancerBySpringCGLIB$$1f87df2.getFilePath 5ms
+CsvDataParser.parse 6ms
+DefaultWaterBillChartRepository.load 8ms
+DefaultWaterBillChartRepository.isLoaded 0ms
+DefaultWaterBillChartRepository.getWaterBillByUsage 1ms
+DefaultWaterBillService.calculateWaterBill 3ms
+DefaultWaterBillChartRepository.isLoaded 0ms
+DefaultWaterBillReport.generateReport 11ms
+JavaConfig$$EnhancerBySpringCGLIB$$1f87df2.getFilePath 5ms
+DefaultWaterBillChartRepository.load 1ms
+JavaConfig$$EnhancerBySpringCGLIB$$2b12728c.getFilePath 7ms
+DefaultWaterBillChartRepository.load 1ms
+JavaConfig$$EnhancerBySpringCGLIB$$2b12728c.getFilePath 5ms
+DefaultWaterBillChartRepository.load 2ms
+JavaConfig$$EnhancerBySpringCGLIB$$2b12728c.getFilePath 15ms
+DefaultWaterBillChartRepository.load 1ms
+JavaConfig$$EnhancerBySpringCGLIB$$2b12728c.getFilePath 5ms
+DefaultWaterBillChartRepository.load 3ms
+JavaConfig$$EnhancerBySpringCGLIB$$2b12728c.getFilePath 10ms
+DefaultWaterBillChartRepository.load 2ms
+JavaConfig$$EnhancerBySpringCGLIB$$2b12728c.getFilePath 17ms
+DefaultWaterBillChartRepository.load 1ms
+DefaultWaterBillChartRepository.setDataParser 0ms
+JsonDataParser.parse 157ms
+DefaultWaterBillChartRepository.load 158ms
+DefaultWaterBillChartRepository.isLoaded 0ms
+DefaultWaterBillChartRepository.getWaterBillByUsage 2ms
+DefaultWaterBillService.calculateWaterBill 5ms
+DefaultWaterBillChartRepository.isLoaded 0ms
+DefaultWaterBillReport.generateReport 17ms
+DefaultWaterBillChartRepository.setDataParser 0ms
+CsvDataParser.parse 9ms
+DefaultWaterBillChartRepository.load 9ms
+DefaultWaterBillChartRepository.isLoaded 0ms
+DefaultWaterBillChartRepository.getWaterBillByUsage 1ms
+DefaultWaterBillService.calculateWaterBill 3ms
+DefaultWaterBillChartRepository.isLoaded 0ms
+DefaultWaterBillReport.generateReport 21ms
+DefaultWaterBillChartRepository.setDataParser 0ms
+CsvDataParser.parse 6ms
+DefaultWaterBillChartRepository.load 7ms
+DefaultWaterBillChartRepository.isLoaded 0ms
+DefaultWaterBillChartRepository.getWaterBillByUsage 2ms
+DefaultWaterBillService.calculateWaterBill 6ms
+DefaultWaterBillChartRepository.isLoaded 0ms
+DefaultWaterBillReport.generateReport 16ms
+Object.methodName 0ms
+Object.methodName 0ms
+DefaultWaterBillChartRepository.setDataParser 0ms
+CsvDataParser.parse 4ms
+DefaultWaterBillChartRepository.load 4ms
+DefaultWaterBillChartRepository.setDataParser 0ms
+CsvDataParser.parse 6ms
+DefaultWaterBillChartRepository.load 6ms
+Object.methodName 0ms
+Object.methodName 0ms
+DefaultWaterBillChartRepository.setDataParser 0ms
+CsvDataParser.parse 6ms
+DefaultWaterBillChartRepository.load 6ms
+DefaultWaterBillChartRepository.isLoaded 0ms
+DefaultWaterBillChartRepository.getWaterBillByUsage 0ms
+DefaultWaterBillService.calculateWaterBill 1ms
+DefaultWaterBillChartRepository.isLoaded 0ms
+DefaultWaterBillReport.generateReport 8ms
+DefaultWaterBillChartRepository.setDataParser 0ms
+CsvDataParser.parse 6ms
+DefaultWaterBillChartRepository.load 6ms
+DefaultWaterBillChartRepository.isLoaded 0ms
+DefaultWaterBillChartRepository.getWaterBillByUsage 2ms
+DefaultWaterBillService.calculateWaterBill 5ms
+DefaultWaterBillChartRepository.isLoaded 0ms
+DefaultWaterBillReport.generateReport 13ms

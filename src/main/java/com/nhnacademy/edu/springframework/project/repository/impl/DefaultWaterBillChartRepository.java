@@ -5,7 +5,9 @@ import com.nhnacademy.edu.springframework.project.parser.DataParser;
 import com.nhnacademy.edu.springframework.project.repository.WaterBillChartRepository;
 import java.util.Objects;
 import java.util.stream.Collectors;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.core.env.ConfigurableEnvironment;
 import org.springframework.stereotype.Repository;
 
@@ -15,11 +17,12 @@ import java.util.List;
 @Repository
 public class DefaultWaterBillChartRepository implements WaterBillChartRepository {
 
+
+    @Qualifier("jsonDataParser")
     private DataParser dataParser;
 
     private List<WaterBillInfo> waterBillInfos;
-
-    public DefaultWaterBillChartRepository(ConfigurableEnvironment env){
+    public DefaultWaterBillChartRepository(){
         waterBillInfos = new ArrayList<>();
     }
 

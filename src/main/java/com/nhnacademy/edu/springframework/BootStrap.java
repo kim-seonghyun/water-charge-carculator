@@ -7,21 +7,23 @@ import com.nhnacademy.edu.springframework.project.repository.WaterBillChartRepos
 import com.nhnacademy.edu.springframework.project.service.WaterBillReport;
 import com.nhnacademy.edu.springframework.project.service.WaterBillService;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import java.util.List;
 import java.util.Scanner;
-import org.springframework.stereotype.Component;
+import org.springframework.context.annotation.PropertySource;
 
 
 public class BootStrap {
+
     public static void main(String[] args) {
-        final String FILE_PATH = "data/Tariff_20220331.json";
+        final String CSV_FILE_PATH = "data/Tariff_20220331.csv";
 
         try(AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(JavaConfig.class)){
             WaterBillChartRepository waterBillChartRepository = context.getBean(WaterBillChartRepository.class);
             WaterBillReport waterBillReport = context.getBean(WaterBillReport.class);
-            waterBillChartRepository.load(FILE_PATH);
+            waterBillChartRepository.load(CSV_FILE_PATH);
 
             Scanner scanner = new Scanner(System.in);
             long waterUsage = scanner.nextLong();
